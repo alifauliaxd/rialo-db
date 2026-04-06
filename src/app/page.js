@@ -125,7 +125,7 @@ function StatCard({ title, data, color, badgeBg, suffix }) {
           </div>
         ))}
         {data.length === 0 && (
-          <p className="text-gray-600 text-xs font-mono italic">Belum ada data rekaman.</p>
+          <p className="text-gray-600 text-xs font-mono italic">There is no recorded data yet.</p>
         )}
       </div>
     </div>
