@@ -65,7 +65,7 @@ export default async function RialoAutomatedDashboard() {
 
         <div className="mb-12">
           {/* Mapping prop sesuai kodingan Charts lu */}
-          <Charts regionStats={regionStats} vibeStats={vibeStats} />
+          <Charts regionData={regionStats} farmingData={vibeStats} />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
